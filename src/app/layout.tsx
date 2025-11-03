@@ -77,30 +77,27 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "SaasFlow - Scale Your Business with Intelligent SaaS Solutions",
-  description: "Streamline operations, boost productivity, and drive growth with SaasFlow's all-in-one platform. Trusted by 10,000+ companies. Start your free trial today.",
-  keywords: "SaaS platform, business automation, team collaboration, analytics dashboard, workflow management, business intelligence",
+  title: "SaasFlow - Build Better SaaS Products Faster",
+  description: "Transform your workflow with SaasFlow's all-in-one platform. Streamline operations, boost productivity, and scale your business effortlessly.",
+  keywords: "saas platform, workflow automation, business intelligence, team collaboration, productivity tools",
   metadataBase: new URL("https://saasflow.com"),
   alternates: {
     canonical: "https://saasflow.com"
   },
   openGraph: {
-    title: "SaasFlow - Scale Your Business with Intelligent SaaS Solutions",
-    description: "Streamline operations, boost productivity, and drive growth with SaasFlow's all-in-one platform. Trusted by 10,000+ companies.",
-    url: "https://saasflow.com",
+    title: "SaasFlow - Build Better SaaS Products Faster",
+    description: "Transform your workflow with SaasFlow's all-in-one platform. Streamline operations, boost productivity, and scale your business effortlessly.",
     siteName: "SaasFlow",
-    images: [
-      {
-        url: "https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        alt: "SaasFlow dashboard interface"
-      }
-    ],
-    type: "website"
+    type: "website",
+    images: [{
+      url: "https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      alt: "SaasFlow dashboard interface"
+    }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "SaasFlow - Scale Your Business with Intelligent SaaS Solutions",
-    description: "Streamline operations, boost productivity, and drive growth with SaasFlow's all-in-one platform.",
+    title: "SaasFlow - Build Better SaaS Products Faster",
+    description: "Transform your workflow with SaasFlow's all-in-one platform. Streamline operations, boost productivity, and scale your business effortlessly.",
     images: ["https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
   },
   robots: {
